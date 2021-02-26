@@ -1,0 +1,13 @@
+<view class="swiper-container">
+  <swiper autoplay="{{true}}" indicator-dots="{{true}}" interval="{{2000}}" circular>
+    <swiper-item>
+      <image class="swiper-image" src="/images/xcdh.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiper-image" src="https://s1.tuchong.com/content-image/202102/0bbbde60a93c2795d7e58c88862c2f6e.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="swiper-image" src="https://icweiliimg1.pstatp.com/weili/sm/627722509893632019.webp"></image>
+    </swiper-item>
+  </swiper>
+</view>
