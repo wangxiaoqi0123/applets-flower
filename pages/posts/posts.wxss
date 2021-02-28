@@ -62,7 +62,7 @@
   margin-bottom: 10rpx;
 }
 
-.post-like>image {
+.post-like>l-icon {
   width: 32rpx;
   height: 32rpx;
   margin-right: 16rpx;

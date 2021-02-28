@@ -1,15 +1,14 @@
 {
   "pages": [
     "pages/welcome/welcome",
-    "pages/posts/posts"
+    "pages/posts/posts",
+    "pages/test/test",
+    "pages/posts-detail/posts-detail"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#C22A1E",
-    
-    "navigationBarTitleText": "",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#C22A1E"
   },
+  "requiredBackgroundModes": ["audio", "location"],
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<view catch:tap="handleViewTap">
+  <text bind:tap="handleTextTap">Hello World!</text>
+</view>

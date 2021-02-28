@@ -1,52 +1,50 @@
-// pages/welcome/welcome.js
+// pages/test/test.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-  },
-
-  handleTap: function () {
-    wx.redirectTo({
-      url: '/pages/posts/posts'
-    })
+    message: "Hello World!",
+    color: false,
+    size: 50,
+    colorRed: 'color-red',
+    textSize: 'text-size'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log('Page onLoad')
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    console.log('Page onReady')
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    console.log('Page onShow')
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+    console.log('Page onHide')
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    console.log('Page onUnload')
   },
 
   /**
@@ -68,5 +66,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  handleViewTap: function () {
+    console.log('on view tap')
+  },
+  handleTextTap: function () {
+    console.log('on text tap')
   }
+
 })
