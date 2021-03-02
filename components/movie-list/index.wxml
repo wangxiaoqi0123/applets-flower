@@ -1,0 +1,11 @@
+<view class="container ctr-class">
+  <view class="head-container">
+    <text>{{title}}</text>
+    <text>更多></text>
+  </view>
+  <view class="movie-container">
+    <movie-item />
+    <movie-item />
+    <movie-item />
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<view>
+  <text>{{value}}</text>
+  <button bind:tap="handleTop">自定义事件</button>
+</view>

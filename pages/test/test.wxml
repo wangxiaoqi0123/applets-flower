@@ -1,4 +1,4 @@
-<!--pages/test/test.wxml-->
-<view catch:tap="handleViewTap">
-  <text bind:tap="handleTextTap">Hello World!</text>
+<view class="container">
+  <test-list class="test-list" test-text="这是一段测试文本" bind:myevent="onMyEvent"></test-list>
+  <text class="a">这是test page 的 text a</text>
 </view>

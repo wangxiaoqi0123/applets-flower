@@ -1,0 +1,3 @@
+<movie-list title="正在上映" ctr-class="movie-list" />
+<movie-list title="即将上映" ctr-class="movie-list" />
+<movie-list title="豆瓣Top250" ctr-class="movie-list" />

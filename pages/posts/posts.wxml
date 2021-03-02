@@ -11,23 +11,7 @@
     </swiper-item>
   </swiper>
 
-  <view class="post-container" wx:for="{{posts}}" wx:key="index" bind:tap="onGoToDetail" data-id="{{item.postId}}">
-    <view class="post-author-date">
-      <image src="{{item.avatar}}"></image>
-      <text>{{item.date}}</text>
-    </view>
-
-    <text class="post-title">{{item.title}}</text>
-
-    <image class="post-image" src="{{item.imgSrc}}"></image>
-
-    <text class="post-content">{{item.content}}</text>
-
-    <view class="post-like">
-      <l-icon name="favor" size="28" color="#666" />
-      <text>{{item.collection}}</text>
-      <l-icon name="eye" size="32" color="#666" />
-      <text>{{item.reading}}</text>
-    </view>
+  <view wx:for="{{posts}}" wx:key="index" bind:tap="onGoToDetail" data-id="{{item.postId}}">
+    <post-item posts-item="{{item}}" />
   </view>
 </view>

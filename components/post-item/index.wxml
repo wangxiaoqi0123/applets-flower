@@ -1,0 +1,19 @@
+<view class="post-container">
+  <view class="post-author-date">
+    <image src="{{postsItem.avatar}}"></image>
+    <text>{{postsItem.date}}</text>
+  </view>
+
+  <text class="post-title">{{postsItem.title}}</text>
+
+  <image class="post-image" src="{{postsItem.imgSrc}}"></image>
+
+  <text class="post-content">{{postsItem.content}}</text>
+
+  <view class="post-like">
+    <l-icon name="favor" size="28" color="#666" />
+    <text>{{postsItem.collection}}</text>
+    <l-icon name="eye" size="32" color="#666" />
+    <text>{{postsItem.reading}}</text>
+  </view>
+</view>

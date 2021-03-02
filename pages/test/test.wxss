@@ -1,15 +1,9 @@
 /* pages/test/test.wxss */
-view {
+.container {
   padding: 50rpx;
-  color: #ff0000;
-  background-color: #ff0000;
 }
 
-text {
-  padding: 50rpx;
-  background-color: #00ff00;
-}
 
-.text-size {
-  font-size: 50rpx;
+.a {
+  background-color: #f00;
 }

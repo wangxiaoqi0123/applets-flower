@@ -1,0 +1,4 @@
+/* components/test/list/index.wxss */
+.a {
+  border: 4px solid #000;
+}

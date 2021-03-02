@@ -12,6 +12,16 @@ Page({
     textSize: 'text-size'
   },
 
+  onMyEvent(event) {
+    const child = this.selectComponent('.test-list')
+    child.setData({
+      obj: {
+        a: 1,
+        b: 2
+      }
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
